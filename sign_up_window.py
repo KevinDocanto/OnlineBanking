@@ -101,7 +101,7 @@ class SignUp(QMainWindow, App):
         self.password.move(mid_screen - self.password.width() + 130, 310)
 
 
-        # Finish signing up button
+        # Sign up button
         self.finish = QPushButton(parent=self, text='Sign up')
         self.finish.clicked.connect(self.show_new_window)
         self.finish.move(mid_screen - 40, 400)
