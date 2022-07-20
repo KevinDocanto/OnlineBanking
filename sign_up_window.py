@@ -20,7 +20,7 @@ class SignUp(QMainWindow, App):
             super().keyPressEvent(qKeyEvent)
 
 
-      # Finishes signing up
+      # Show main window when sign up button is pressed
     def show_new_window(self):
         self.db.execute2("""SELECT username
                    FROM clients
